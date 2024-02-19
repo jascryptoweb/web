@@ -24,8 +24,44 @@
 .work-request--information label{
     font-size: 18px;
 }
-
+.bar-legend{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    bottom: 5%;
+    width: 100%;
+    background: #0C0C0C;
+    
+}
+.lol{
+   
+    padding: 20px;
+    width: 100%;
+    font-size: 18px;
+    text-align: center;
+}
+.lol span{
+    color: #ff8f5b;
+    font-size: 22px;
+    font-weight: 800;
+    margin-right: 10px;
+}
 @media screen and (max-width:800px) {
+    .lol {
+    
+            padding: 5px;
+            width: 100%;
+            font-size: 14px;
+            text-align: center;
+        }
+    
+        .lol span {
+            color: #ff8f5b;
+            font-size: 16px;
+            font-weight: 800;
+            margin-right: 10px;
+        }
     .hire h2{
         font-size: 16px !important;
     }
@@ -58,5 +94,18 @@
     }
     .contact--lockup span img{
         width: 40px;
+    }
+    .work-request--options{
+        width: 100% !important;
+        flex-direction: column;
+    }
+        .work-request--options label{
+            width: 100% !important;
+        }
+    .options-a{
+        width: 100% !important;
+    }
+    .options-b{
+        width: 100% !important;
     }
 }
